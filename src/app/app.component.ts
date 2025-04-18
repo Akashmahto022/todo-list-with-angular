@@ -9,4 +9,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'todo-list';
-}
+  constructor() {
+    // setTimeout(() => {
+    //   this.title = "Change Title"
+    // }, 2000);
+  }
+};
